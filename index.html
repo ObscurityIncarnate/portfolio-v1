@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Opemipo Feyisitan - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name" style="color: white">
+          <div style="color: white; font-size: x-large" >
+            <b>Opemipo Feyisitan</b>
+          </div>
+
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          feyisitanopemipo@gmail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +447752437794
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendations">Recommendations</a>
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+<!--        <img src="https://miro.medium.com/max/1400/1*qdAW1TjCN57h1lbuuzvchg.gif" class="profile_image"/>-->
+        <img src="html_finalprojimages/giphy.gif" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Opemipo! <img src="html_finalprojimages/waving-hand.png" width="60px"/>
+          </h1>
+          <p>
+            I am a final year computer science student at the University of Birmingham.
+            I am highly motivated and enjoy problem solving tasks. I am eager to learn, highly adaptable, and always ready to take on new challenges and strive
+            for excellence.
+
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>2 years experience</p>
+        </div>
+
+        <div class="skill">
+          <img src="html_finalprojimages/CSS3.png"/>
+          <h6>CSS</h6>
+          <p>2 years experience</p>
+        </div>
+
+        <div class="skill">
+          <img src="html_finalprojimages/java.png"/>
+          <h6>Java</h6>
+          <p>2 years experience</p>
+        </div>
+
+        <div class="skill">
+        <img src="html_finalprojimages/python.png"/>
+        <h6>Python</h6>
+        <p>2 years experience</p>
+      </div>
+
+        <div class="skill">
+          <img src="html_finalprojimages/C.png"/>
+          <h6>C</h6>
+          <p>1 years experience</p>
+        </div>
+        <!-- Add more skills here -->
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card" onclick="slidervis(1)">
+            <h3>Robotics Project</h3>
+          </div>
+
+          <hr>
+
+          <div id = "slider">
+            <ul>
+              <li>Worked with a team of 6 to design, test, and assemble a robot that could navigate through a maze autonomously using sensors and programming.</li>
+              <li>Responsible for programming the robot's movements and ensuring accurate navigation through the maze.</li>
+              <li>Developed strong communication and collaboration skills, as well as problem-solving abilities to troubleshoot issues during the testing phase.</li>
+            </ul>
+
+            <div class="slide"> <img  src="html_finalprojimages/node.png" alt=""></div>
+            <div class="slide"> <img src="html_finalprojimages/react.png" alt=""></div>
+
+            <a class="prev" onclick="changeSlides(-1, 1)"> <img src="html_finalprojimages/forward.png"></a>
+            <a class="next" onclick="changeSlides(1, 1)"> <img src="html_finalprojimages/back.png"></a>
+          </div>
+
+          <div class="project-card" onclick="slidervis(2)">
+            <h3>Fashion Website</h3>
+          </div>
+
+          <hr>
+
+          <div id="slider2">
+            <ul>
+              <li>Played a crucial role in defining requirements, scoping the system, defining use cases, producing an
+                interactive prototype, and developing the product up to its deployment phase in the SDLC.</li>
+              <li>Created the mix and match algorithm, which suggested outfits based on user preferences and trends.</li>
+              <li>Implemented a social chat feature that enabled users to interact, share styling tips, and seek advice on
+                outfit choices.</li>
+              <li>Collaborated closely with the team to ensure the product met the needs of target users, leveraging
+                expertise in software development and user experience design.</li>
+            </ul>
+
+            <div class="slide2"> <img  src="html_finalprojimages/js.jpeg" alt=""></div>
+            <div class="slide2"> <img src="html_finalprojimages/java.png" alt=""></div>
+
+            <a class="prev" onclick="changeSlides(-1, 2)"> <img src="html_finalprojimages/forward.png"></a>
+            <a class="next" onclick="changeSlides(1, 2)"> <img src="html_finalprojimages/back.png"></a>
+          </div>
+
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Opemipo excels in collaborative environments, bringing a balanced mix of technical skills and effective communication to the team.
+          Leveraging these strengths he enhances overall team synergy and productivity.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Opemipo consistently demonstrates a strong analytical ability and a proactive approach to troubleshooting, leading to innovative solutions in complex projects.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Opemipo's focus on user experience and functional design has significantly improved the clarity and effectiveness of user requirements and the quality of iterative prototypes.
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+<!--            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>-->
+<!--            <a class="btn btn-1">-->
+<!--              <svg>-->
+<!--                <rect x="0" y="0" fill="none" width="100%" height="100%"/>-->
+<!--              </svg>-->
+<!--            </a>-->
+
+            <button id="recommend_btn" onclick="addRecommendation()" class="btn btn-1">
+              Submit
+              <svg>
+                <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+              </svg>
+            </button>
+
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <!--Add the code here for the logo to appear and the icon to be actionable-->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#3a864e" width="63px">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Thank you for leaving a recommendation.</h3>
+      <button id="popup_btn" onclick="showPopup(false)" class="btn btn-1">
+        Submit
+        <svg>
+          <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+        </svg>
+      </button>
+    </div>
+  </body>
+</html>
