@@ -81,6 +81,7 @@ function changeSlides(n,m) {
 
 }
 
+
 // var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
 
 function onScroll() {
@@ -119,3 +120,4 @@ function onScroll() {
 
 // Add the scroll event listener to the window
 window.addEventListener('scroll', onScroll);
+

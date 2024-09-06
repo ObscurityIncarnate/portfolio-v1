@@ -62,9 +62,11 @@ body {
 
 h2 {
   text-align: justify;
+
   font-size: 70px;
   text-align: center;
   /*float: left;*/
+
   color: #3a864e;
           /*#7600bc;*/
   margin: 30px;
@@ -118,10 +120,12 @@ h2 {
   margin: 5px;
 }
 
+
 #about-me {
   height: 100vh;
   scroll-snap-align: start;
 }
+
 /* Skills */
 
 .all_skills {
@@ -175,6 +179,7 @@ h2 {
   height: 100vh;
 }
 
+
 /* Projects */
 
 .projects-container {
@@ -205,10 +210,12 @@ h2 {
   color: #404743;
 }
 
+
 #projects {
   height: 100vh;
   scroll-snap-align: start;
 }
+
 /* Recommendations */
 
 .all_recommendations {
