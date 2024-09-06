@@ -1,5 +1,7 @@
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition: background-color 0.5s;
+  scroll-behavior: smooth;
 }
 
 /* Navigation Bar */
@@ -13,6 +15,7 @@ body {
   padding-top: 2cm;
   padding-bottom: 2cm;
   height: 5mm;
+
  }
 
 .topmenu {
@@ -59,9 +62,11 @@ body {
 
 h2 {
   text-align: justify;
-  font-size: 50px;
+
+  font-size: 70px;
   text-align: center;
-  float: left;
+  /*float: left;*/
+
   color: #3a864e;
           /*#7600bc;*/
   margin: 30px;
@@ -115,6 +120,12 @@ h2 {
   margin: 5px;
 }
 
+
+#about-me {
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
 /* Skills */
 
 .all_skills {
@@ -163,6 +174,12 @@ h2 {
   justify-content: center;
 }
 
+#skills {
+  scroll-snap-align: start;
+  height: 100vh;
+}
+
+
 /* Projects */
 
 .projects-container {
@@ -191,6 +208,12 @@ h2 {
   font-size: 20px;
   margin-left: 30px;
   color: #404743;
+}
+
+
+#projects {
+  height: 100vh;
+  scroll-snap-align: start;
 }
 
 /* Recommendations */
